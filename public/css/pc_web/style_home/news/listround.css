@@ -1,0 +1,130 @@
+
+
+/*-------文本类 4  人员介绍之类的------------*/
+
+.listround{
+	width: 100%;
+	height: auto;
+    padding-bottom:80px;
+    background: #fff;
+}
+
+.listround .news_top{
+	padding: 30px 0;
+	text-align: center;
+}
+
+.listround .news_top h3{
+	margin-bottom:10px;
+	font-size:32px;
+}
+
+.listround .news_top h4{
+	font-size:26px;
+    color: #b2b2b2;
+}
+
+.listround .news_main{
+	width: 1018px;
+    margin:0 auto;
+	overflow:hidden;
+}
+
+.listround .news_list{
+	width: 1110px;
+}
+
+.listround .news{
+    margin-right:92px;
+    width: 278px;
+    height:auto;
+    background: #fff;
+    overflow:hidden;
+    float: left;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius: 4px;
+}
+
+.listround .news_pic{
+    margin-bottom:40px;
+    width: 278px;
+    height:278px;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius: 50%;
+    text-align: center;
+    overflow:hidden;
+}
+
+.listround .news_pic img{
+	width: 228px;
+    height:228px;
+    margin-top:25px;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius: 50%;
+    transition: all 0.3s linear;
+}
+
+.listround .news_pic img:hover{
+    width: 278px;
+    height: 278px;
+    margin-top:0;
+}
+
+.listround .news_content{
+    width: 278px;
+    height:auto;
+    background: #fff;
+    text-align:center;
+    -webkit-border-radius:0 0 4px 4px;
+    -moz-border-radius:0 0 4px 4px;
+    border-radius: 0 0 4px 4px;
+    visibility:hidden;
+}
+
+.listround .news_tit{
+	margin-bottom:20px;
+    height:44px;
+    line-height: 22px;
+    font-size:20px;
+    position: relative;  
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -moz-box;
+    -moz-line-clamp: 2!important;
+    -moz-box-orient: vertical;
+}
+
+/* // 后面自动补上点 */
+.listround .news_tit:after {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), #FFFFFF 50%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    width: 20px;
+    height:22px;
+    content: "";
+    padding: 0 5px 1px 30px;
+    position: absolute;
+    right:0;
+    bottom: 0;
+}
+
+.listround .news_tit:hover{
+    color:#ff9800;
+}
+
+.listround .news_brief{
+    margin-bottom: 20px;
+    font-size:18px;
+    color:#b2b2b2;
+}
+
+.listround .news_date{
+	display: block;
+	font-size:14px;
+    color:#b2b2b2;
+
+}

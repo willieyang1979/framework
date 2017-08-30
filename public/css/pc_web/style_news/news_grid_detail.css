@@ -1,0 +1,26 @@
+
+.detail{
+	width: 70%;
+	margin:0 auto;
+	padding: 20px;
+}
+
+.detail-tit{
+	margin-bottom:20px;
+	font-size:28px;
+}
+
+.detail-brief{
+	margin-bottom:20px;
+	color:#939393;
+}
+
+.detail-content img{
+	max-width: 100%;
+	margin-bottom:10px;
+}
+
+.detail-describe{
+	line-height: 24px;
+}
+
